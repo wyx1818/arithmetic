@@ -30,7 +30,7 @@ type Edge<T> = {
   to: GNode<T>; // 去哪个点
 };
 
-type Graph<T extends unknown = string | number | symbol> = {
+export type Graph<T extends unknown = string | number | symbol> = {
   nodes: Record<string, GNode<T>>;
   edges: Edge<T>[];
 };

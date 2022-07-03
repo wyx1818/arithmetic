@@ -1,4 +1,4 @@
-import { swap } from "../utils";
+import { swap } from "../../utils";
 
 /**
  * 数组转换完全二叉树

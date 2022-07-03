@@ -1,4 +1,4 @@
-import { swap } from "../utils";
+import { swap } from "../../utils";
 
 // 选择排序
 function selectionSort(arr: number[]): void {
